@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ header }}</h1>
+      <p>{{ name.firstName }}</p>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+      var app = new Vue({
+        el: "#app",
+        data: {
+          header : 'Header here',
+          message: "Hello Vue.js!! PADC",
+          name : {
+            firstName : 'Thet',
+            lastName : 'Hlaing'
+          }
+        }
+      });
+
+    </script>
+  </body>
+</html>
